@@ -1,0 +1,27 @@
+hr.double-line {
+  border: none; /* Remove default styling */
+  border-top: 4px double green;
+  height: 0;
+}
+img.center {
+  display: block;
+  margin-left: 235px;
+}
+.video-container {
+  display: flex; /* Enables side-by-side alignment */
+  gap: 10px;    /* Adds space between the videos */
+  justify-content: center; /* Centers the videos on the page */
+}
+.video-container video {
+  width: 33%;    /* Adjusts size so two fit on one line */
+  height: auto;
+}
+img.picInRow {
+  display: inline-block;
+  margin: 10px; /* Adjust spacing between images */
+}
+img.middle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+}
